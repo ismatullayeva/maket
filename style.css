@@ -1,0 +1,83 @@
+.container{
+    transition: all 0.5s;
+    box-shadow: 0 0 25px;
+    width: 1100px;
+    margin-left: 150px;
+    height: 1500px;
+}
+
+.header{
+    background-image:url('img1.png');
+    width: 1100px;
+    height: 579px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 1100px 600px;
+
+}
+
+.logo>img{
+    margin-top: 30px;
+    margin-left: 830px;
+    width: 70px;
+    height: 60px;
+}
+.header>h1{
+    font-family: Secular One;
+    color: white;
+    margin-left: 350px;
+    font-size: 48px;
+    margin-top: 100px;
+    line-height: 58px;
+    font-weight: 700;
+    font-style: normal;
+}
+.footer{
+    background-color: white;
+}
+.body{
+    background-image: url('img4.png');
+    background-size: 400px 350px;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-left: 350px;
+    display: flex;
+
+}
+.body>img{
+    width: 300px;
+    height: 250px;
+   margin-left:50px;
+    margin-top: 55px;
+    justify-content: center;
+}
+.order>h1{
+    font-family: Skranji;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 33px;
+    margin-left: 500px;
+    text-decoration-line: underline;
+    color: #0C0C0C;
+}
+.body2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.body2>.left>h1{
+    font-family: 'Secular One';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 12px;
+    color: #000000;
+    margin-top: 220px;
+    margin-left: 120px;
+
+}
+.body2>.right>img{
+    margin-left: 500px;
+    width: 200px;
+    height: 200px;
+}
